@@ -14,7 +14,7 @@ GitHub repostory:https://github.com/l3us/WordFinder
 
 This is a programme that search for the words that include the letters you've typed.
  
-For help just type 'help', to end the loop type 'end'.       
+Type 'help' to get more information, type 'end' to end the loop.       
 """
 
 help="""
@@ -23,12 +23,12 @@ Type one by one the letters of the words that you want to search.
 For example:
     You want to search for the words that include 'a' or 'b' or 'c'.
     1.Run the programme.
-    2.Type 'a'(without any quotation mark) and press <Enter>.
-    3.Type 'b'(without any quotation mark) and press <Enter>.
-    4.Type 'c'(without any quotation mark) and press <Enter>.
+    2.Type 'a' and press <Enter>.
+    3.Type 'b' and press <Enter>.
+    4.Type 'c' and press <Enter>.
     5.Type the max length for the words.
     6.Type the file name that will be saved in.
-    7.Finally to end the loop type 'end'.
+    7.Type 'end' to finish the loop.
 """
 #ask_to_dictionary function:This function send a get request to Cambridge Dictionary.If there is a page like that(If status equal to 200), it writes the word in a text file.
 def ask_to_dictionary(word):
